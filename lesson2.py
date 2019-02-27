@@ -159,10 +159,10 @@ class Parser():
 if __name__ == "__main__":
     parser1 = Parser()
     src = raw_input('Введите путь к файлу: ')
-    log = parser1.open_file(src);
-    array = parser1.sort(log);
-    sym = parser1.vsego(array);
-    svodka = parser1.svodka(array, sym);
+    log = parser1.open_file(src)
+    array = parser1.sort(log)
+    sym = parser1.vsego(array)
+    svodka = parser1.svodka(array, sym)
     user_date=parser1.date_parsing(array)
     high_date_array = parser1.high_date(user_date)
     mm=-2
